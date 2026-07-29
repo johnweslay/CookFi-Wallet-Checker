@@ -43,7 +43,7 @@ export function supabaseAdmin() {
 export type Mint = {
   id: string;
   name: string;
-  chain: "ethereum" | "polygon" | "base" | "arbitrum" | "solana";
+  chain: "ethereum" | "polygon" | "base" | "robinhood" | ""arc" | "arbitrum" | "solana"
   contract_address: string;
   source: string | null;
   source_url: string | null;
