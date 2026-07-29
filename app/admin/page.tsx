@@ -116,6 +116,8 @@ export default function AdminPage() {
             <option value="base">Base</option>
             <option value="arbitrum">Arbitrum</option>
             <option value="solana">Solana</option>
+            <option value="arc">Arc</option>
+            <option value="robinhood">Robinhood</option>
           </select>
         </label>
 
