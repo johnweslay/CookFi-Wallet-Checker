@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: #0b0b14;
+  color: #f4f4f8;
+}
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+input, select {
+  font-family: inherit;
+}
+a {
+  color: inherit;
+}
